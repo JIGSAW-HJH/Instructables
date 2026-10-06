@@ -32,6 +32,26 @@ Originally developed as part of the BACAR (Balloon Carrying Amateur Radio) groun
 A low-cost, open-source USB-to-CAN interface built from commonly available components. This project combines a Teensy 3.2 microcontroller, MCP2515 CAN controller, custom firmware, and a Python PySide6 desktop application to create a capable CAN bus development and diagnostics tool.
 
 
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/Open-CAN-Bus-USB-Dongle.git
+cd Open-CAN-Bus-USB-Dongle
+```
+
+Install Python dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Launch the GUI:
+
+```bash
+python CanControllerGui.py
+```
 
 
 
